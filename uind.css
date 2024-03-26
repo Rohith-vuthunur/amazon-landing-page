@@ -1,0 +1,526 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+    border:border-box;
+}
+
+.sign-in{
+    display: none;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    /* display:flex; */
+    /* justify-content: space-evenly;
+    align-items: center; */
+    color:white;
+   
+}
+.navlogo{
+    position: relative;
+    margin:0;
+    padding:0;
+    height:50px;
+    width:200px;
+    top:0;
+    /* width:20%; */
+}
+.logo{
+    background-image:url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:70%;
+    /* margin-bottom:10px; */
+}
+
+.bordering:hover{
+    border:1.5px solid #fff;
+    border-radius:4px;
+    /* padding:3px; */
+}
+
+.add-2{
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding:2px;
+}
+.add-2 p{
+    
+    padding-left:3px;
+}
+
+.add-1 p{
+    margin-left:18px;
+    color:rgb(181, 175, 175);
+}
+
+.search-bar{
+    display:flex;
+    width:620px;
+    height:40px;
+    border-radius:4px; 
+    justify-content: space-evenly;
+    background-color: pink;
+
+}
+.bar1{
+    border:none;
+    color:#403c3c;
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right:1px solid #908d8d;
+}
+.searching{
+ /* height:40px; */
+ font-size: 1rem;
+ border:none;
+ width:100%;
+}
+.search-icon{
+    width:40px;
+    background-color: rgb(244, 190, 123);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border:none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1rem;
+    color:rgb(67, 59, 59);
+    cursor:pointer;
+    
+}
+.lang{
+    height:40px;
+   
+}
+.language{
+    display:flex;
+    border-radius:4px;
+    height:40px;
+    
+}
+
+.image{
+    height:10px;
+    width:10px;
+}
+.nav-sign span{ 
+            font-size:0.8rem;
+}
+.nav-return{
+    cursor:pointer;
+}
+.low{
+    font-size: 0.8rem;
+    
+}
+.signac{
+    border-radius:4px;
+}
+.search-bar:hover{
+    border:3px solid  rgb(244, 190, 123);
+}
+
+.cart{
+  
+    cursor:pointer;
+    /* justify-content: space-between; */
+}
+
+.cart i{
+    font-size:30px;
+}
+.panel{
+    height: 40px;
+    color:#fff;
+    background-color: #221f1f;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor:pointer;
+   
+}
+.all{
+    font-size: 0.9rem;
+}
+.panel-details{
+    width: 70%;
+}
+.panel-details p{
+    font-size:0.8rem;
+    display: inline-block;
+    margin-left:10px;
+
+}
+.deals{
+    font-size:0.9rem;
+    background-color: orange;
+    /* height: */
+    padding:3.2px;
+    border:1px solid orange;
+}
+
+.hero_section{
+    background-image:url("hero_image.jpg");
+    /* height:350px; */
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* flex-direction: flex-end; */
+}
+
+#signin{
+    display:none;
+}
+#menu{
+    display:none;
+    cursor:pointer;
+    
+}
+
+.hero_msg p{
+    background-color: white;
+    /* width:100%; */
+    font-size:1rem;
+    height:1.6rem;
+    padding:10px 6px;
+    margin-bottom:25px;
+}   
+.shopping{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+
+}
+.box{
+    width:23%;
+    height:400px;
+    border:1px solid black;
+    position:relative;
+    /* top:-30px; */
+    background-color: white;
+    padding:10px 15px 15px;
+    margin:10px;
+}
+.box p{
+    margin-top: 4px;
+
+    /* text-color:green */
+    
+    
+}
+
+.box a{
+    text-decoration: none;
+    color:green
+}
+.box_img{
+    height:350px;  
+}
+.box h2{
+    padding-bottom: 4px;
+}
+.b1{
+    background-image: url("https://media.istockphoto.com/id/1309247037/photo/woman-applying-face-serum-using-dropper-caring-for-skin-indoors.jpg?s=612x612&w=0&k=20&c=AcBHBTfMkO2wouQ6yLXpFuTKC5wJ_14KVfcJGtrhy5o=");
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+.b2{
+    background-image: url('https://images.unsplash.com/photo-1598528738936-c50861cc75a9?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+.b3{
+    background-image:url("https://static.asianpaints.com/content/dam/asianpaintsbeautifulhomes/home-decor-advice/guides-and-how-tos/choosing-living-room-furniture/Title-living-room-interior-design.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.b4{
+    background-image:url("https://www.amazingitemsmart.store/cdn/shop/collections/gfxtoolz460561_1.png?v=1705184123&width=2400x");
+    background-size: cover;
+    background-position: center;
+}
+.b5{
+    background-image:url("https://lapolo-backend-static-file-rest-api.s3.amazonaws.com/media/None/100-years-of-fashion-cover-lapolo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.b6{
+    background-image:url("https://static.blog.bolt.eu/LIVE/wp-content/uploads/2022/04/30135418/grocery-list.jpg");
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    padding-top:16px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    display:flex;
+    justify-content: center;
+    height:30px;
+    align-items: center;
+    color: #fff;
+}
+.foot-panel2{
+   background-color: #222f3d;
+   color:#fff;
+   height: 300px;
+   display: flex;
+   justify-content: space-evenly;
+   padding:14px;
+   
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top:10px;
+    color: #DDD;
+}
+ul{
+    margin-top:20px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    /* color:white; */
+    border-top:0.5px solid white;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image:url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width:90px;
+    /* margin-bottom:10px; */
+}
+.foot-panel4{
+    background-color:#222f3d;
+    
+}
+
+.pages a{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    text-decoration: none;
+    color:white;
+    /* background-color: #222f3d; */
+
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:15px;
+    
+}
+.copyright{
+    text-align: center;
+    color:#fff;
+    padding-top:15px;
+}
+@media(max-width:799px){
+    .navbar{
+        display: flex;
+
+    }
+    #menu{
+        display:flex;
+        /* justify-content: space-around; */
+    }
+    .navlogo{
+        width:20%;
+    }
+    /* .box1{
+        display:none;
+    }
+     */
+     .add-1,.add-2{
+        display: none;
+     }
+   
+    .search-bar{
+        display: none;
+    }
+    .logo{
+        position:relative;
+        height:35px;
+        margin-top:5px;
+    }
+    
+    .nav-sign{
+        display: none;
+    }
+
+    .nav-return{
+        display: none;
+    }
+
+    .cart{
+        display:none;
+    }
+   .navlogo{
+    width:20%;
+    margin:0;
+    padding:0;
+    right:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   }
+   .navbar{
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-right:0px;
+    justify-content:space-between;
+    /* border-bottom: 1px solid #cbbebe; */
+   }
+   .sign-in{
+    right:0;
+    display: flex;
+    /* margin:px; */
+    padding-left:34%;
+    position:relative;
+    justify-content: flex-end;
+    
+    gap:18px;
+
+   }
+   .sign-in {
+    cursor:pointer;
+    left:0;
+   }
+   .panel{
+    display: none;
+   }
+   .fa-location-dot{
+    color:#fff;
+    padding-right: 4px;
+   }
+   .hero_section{
+    background-image:none;
+    background-position: center;
+    background-size: cover;
+    background-color: #0f1111;
+    /* height:600px; */
+   }
+   .delivery{
+    cursor:pointer;
+    padding:6px;
+    display: flex;
+    background-color: #5b5e60;
+   }
+   .language{
+    display:none;
+   }
+   .lang{
+    display:none;
+    }
+   #vethuku{
+    display:flex;
+    width:100%;
+    height:40px;
+    border-radius:4px; 
+    justify-content: space-evenly;
+    background-color: blueviolet;
+
+   }
+   .hero_msg{
+    display: none;
+}
+.shop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f1111;
+    border: 1px solid grey;
+    /* padding-left:10px; */
+    /* flex-wrap: wrap; */
+    /* flex-basis: 100px; */
+}
+
+.box{
+    border: 1px solid grey;
+    width:200px;
+    height:240px;
+
+}
+.box_img{
+    height:150px;
+    background-size: cover;
+    object-fit: cover;
+}
+.box p{
+    margin-top: 4px;
+    /* text-color:green */
+    
+    
+}
+
+.box a{
+    text-decoration: none;
+    color:green
+}
+.shopping{
+    display: none;
+}
+.box2 p{
+    margin-top:4px;
+
+}
+.box2 a{
+    color:green;
+}
+
+   
+}
+@media(min-width:800px){
+    .navbar{
+        height:60px;
+        background-color: #0f1111;
+        display:flex;
+        gap:1%;
+        /* padding:4px;       */
+        justify-content: space-evenly;
+        align-items: center;
+        color:white;
+       
+    }
+    .hero_section{
+        height:350px;
+    }
+    .shop{
+        display:none;
+    }
+   
+    #vethuku{
+        display: none;
+    }
+    .delivery{
+        display:none;
+    }
+    /* .hero_msg{
+        font-size:0.8rem;
+    } */
+    /* .bar1{
+        display: none;
+    }
+     */
+
+    
+}
